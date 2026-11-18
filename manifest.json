@@ -5,5 +5,6 @@
   "minAppVersion": "0.15.0",
   "description": "Bidirectional/mirror vault sync over WebDAV (upload / download / merge) with optional .obsidian config sync and self-signed certificate support. Inspired by Remotely Save.",
   "author": "leon",
+  "url": "https://github.com/be-engineer/easy-backup",
   "isDesktopOnly": false
 }

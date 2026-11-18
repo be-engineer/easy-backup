@@ -1,0 +1,12 @@
+/* Self-Signed Sync plugin styles */
+
+.selfsync-status {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.selfsync-status .selfsync-icon {
+  font-size: 14px;
+  opacity: 0.9;
+}

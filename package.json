@@ -1,0 +1,21 @@
+{
+  "name": "obsidian-selfsigned-sync",
+  "version": "0.1.0",
+  "description": "Obsidian sync plugin supporting self-signed certificates (WebDAV)",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs production",
+    "lint": "eslint ."
+  },
+  "keywords": ["obsidian", "plugin", "sync", "webdav", "self-signed"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "builtin-modules": "^3.3.0",
+    "esbuild": "^0.21.0",
+    "obsidian": "latest",
+    "typescript": "^5.0.0"
+  }
+}
